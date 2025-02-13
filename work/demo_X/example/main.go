@@ -8,7 +8,7 @@ func main() {
 	const maxCount = 15
 	var number int
 
-	fmt.Printf("Введите количество элементов массива (максимум %d): ", maxCount)
+	fmt.Printf("Введите количество элементов массива (максимум new %d): ", maxCount)
 	fmt.Scan(&number)
 
 	if number > maxCount {
